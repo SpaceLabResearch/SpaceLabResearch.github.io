@@ -126,14 +126,7 @@
   z-index:-1;
   background:linear-gradient(90deg,rgba(8,13,8,.74) 0%,rgba(8,13,8,.46) 48%,rgba(8,13,8,.16) 78%,rgba(8,13,8,.25) 100%);
 }
-.test-hero:after{
-  content:"";
-  position:absolute;
-  inset:0;
-  z-index:-1;
-  box-shadow:inset 0 0 0 1px rgba(255,255,255,.18);
-  pointer-events:none;
-}
+.test-hero:after{\n  content:none;\n}
 .test-meta{grid-column:1;color:rgba(255,255,255,.72)}
 .test-copy{max-width:790px;align-self:center}
 .test-copy h1{color:#fff;text-shadow:0 2px 28px rgba(0,0,0,.26)}
@@ -264,10 +257,6 @@
 @media(max-width:600px){
   .test-hero-video{object-position:58% center}
 }
-@media(prefers-reduced-motion:reduce){
-  .test-hero-video{display:none}
-}
-
 
 /* Home — open transition from video to research statement */
 .test-statement{
