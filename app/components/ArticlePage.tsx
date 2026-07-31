@@ -5,7 +5,7 @@ type Article = { no:string; tag:string; title:string; intro:string; date:string;
 export default function ArticlePage({ article }: { article: Article }) {
   return <main className="article-shell">
     <header className="manual-header article-header">
-      <Link className="brand" href="/test-home/"><i aria-hidden="true" /><span className="brand-name"><span>SPACE</span><strong>LAB</strong></span><span className="rec-mark">REC</span></Link>
+      <Link className="brand" href="/test-home/"><i aria-hidden="true" /><strong>SPACELAB RESEARCH</strong></Link>
       <nav aria-label="Article navigation">
         <Link href="/test-home/">HOME</Link>
         <Link className="active" href="/#journal">JOURNAL</Link>

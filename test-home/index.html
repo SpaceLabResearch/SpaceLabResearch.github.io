@@ -14,8 +14,8 @@ a{color:inherit;text-decoration:none}
 .hero video{position:absolute;inset:0;z-index:-2;width:100%;height:100%;object-fit:cover;object-position:center;background:#172016 url("/public/images/forest-adaptive-environment.webp") center/cover no-repeat}
 .hero:after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,rgba(8,13,8,.76),rgba(8,13,8,.42) 52%,rgba(8,13,8,.18))}
 header{position:absolute;z-index:10;inset:0 0 auto;height:78px;padding:0 clamp(20px,3.5vw,56px);display:grid;grid-template-columns:1fr auto 1fr;align-items:center;border-bottom:1px solid rgba(255,255,255,.28);color:#fff;background:linear-gradient(180deg,rgba(5,9,5,.44),transparent);font:9px ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.1em}
-.brand{display:flex;align-items:center;gap:10px}.dot{width:12px;height:12px;border-radius:50%;background:var(--red)}.brand-name{display:flex;letter-spacing:-.045em;font-size:15px}.brand-name>span{font-weight:300}.brand-name strong{font-weight:750}.rec-mark{border:1.5px solid currentColor;border-radius:4px;padding:2px 5px 1px;font:600 9px ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.08em}
-nav{display:flex;gap:30px;font-size:11px}nav a{font-weight:400}nav a.active{font-weight:750}.code{justify-self:end;color:rgba(255,255,255,.72)}
+.brand{display:flex;align-items:center;gap:12px}.dot{width:12px;height:12px;border-radius:50%;background:var(--red)}.brand strong{font:600 13px Arial,sans-serif}
+nav{display:flex;gap:30px}.code{justify-self:end;color:rgba(255,255,255,.72)}
 .meta{display:flex;justify-content:space-between;color:rgba(255,255,255,.72);font:8px ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.12em}
 .copy{align-self:center;max-width:790px}.kicker{font:9px ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.12em;margin:0 0 42px}
 h1{font-size:clamp(65px,7.2vw,112px);font-weight:300;letter-spacing:-.075em;line-height:.84;margin:0;text-shadow:0 2px 28px rgba(0,0,0,.26)}
@@ -28,14 +28,12 @@ h1{font-size:clamp(65px,7.2vw,112px);font-weight:300;letter-spacing:-.075em;line
 .statement a{font:9px ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.1em;border-top:1px solid #bbb;padding-top:14px;display:flex;justify-content:space-between}.statement a b{color:var(--red)}
 footer{height:100px;padding:0 clamp(20px,3.5vw,56px) 22px;display:flex;align-items:flex-end;justify-content:space-between;font:8px ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.1em;color:#777}
 @media(max-width:700px){header{height:68px;padding:0 14px;grid-template-columns:1fr auto}.brand strong{font-size:10px}.dot{width:9px;height:9px}.code{display:none}nav{gap:11px;font-size:7px}.hero{padding:92px 18px 24px}.hero video{object-position:58% center}.meta{gap:18px;line-height:1.45}.meta span:last-child{text-align:right}.kicker{margin-bottom:26px}h1{font-size:55px}.intro{margin:32px 0 0;max-width:92%;font-size:12px}.status{grid-template-columns:auto auto 1fr;row-gap:16px}.statement{grid-template-columns:1fr;gap:28px;padding:72px 18px 82px}.statement p{font-size:29px}.statement a{grid-column:1}footer{height:90px;padding:0 14px 20px;gap:15px;line-height:1.4}footer span:nth-child(2){display:none}}
-.brand-name{color:inherit}.rec-mark{line-height:1}
-@media(max-width:700px){.brand{gap:6px}.brand-name{font-size:11px}.rec-mark{font-size:7px;padding:2px 4px}nav{font-size:8px}}
 </style>
 </head>
 <body>
 <header>
-<a class="brand" href="/test-home/"><i class="dot"></i><span class="brand-name"><span>SPACE</span><strong>LAB</strong></span><span class="rec-mark">REC</span></a>
-<nav><a class="active" href="/test-home/">HOME</a><a href="#research">RESEARCH</a><a href="/#journal">JOURNAL</a><a href="/#about">ABOUT</a></nav>
+<a class="brand" href="/test-home/"><i class="dot"></i><strong>SPACELAB RESEARCH</strong></a>
+<nav><a href="/test-home/">HOME</a><a href="#research">RESEARCH</a><a href="/#journal">JOURNAL</a><a href="/#about">ABOUT</a></nav>
 <span class="code">SL—R / HOME 02</span>
 </header>
 <main>
