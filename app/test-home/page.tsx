@@ -63,7 +63,6 @@ export default function TestHome() {
 
       <footer className="test-footer">
         <span>SANTA ROSA</span>
-        <span>INDEPENDENT RESEARCH UNIT</span>
         <span>2026</span>
       </footer>
     </main>
