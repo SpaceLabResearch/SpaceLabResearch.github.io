@@ -126,7 +126,9 @@
   z-index:-1;
   background:linear-gradient(90deg,rgba(8,13,8,.74) 0%,rgba(8,13,8,.46) 48%,rgba(8,13,8,.16) 78%,rgba(8,13,8,.25) 100%);
 }
-.test-hero:after{\n  content:none;\n}
+.test-hero:after{
+  content:none;
+}
 .test-meta{grid-column:1;color:rgba(255,255,255,.72)}
 .test-copy{max-width:790px;align-self:center}
 .test-copy h1{color:#fff;text-shadow:0 2px 28px rgba(0,0,0,.26)}
