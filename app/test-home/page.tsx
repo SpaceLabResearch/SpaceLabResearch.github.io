@@ -30,26 +30,10 @@ export default function TestHome() {
           </p>
         </div>
 
-        <figure className="test-visual">
-          <img
-            src="/images/eva-risk-map.svg"
-            alt="EVA multi-factor risk map"
-          />
-          <figcaption>
-            <span>FIELD PLATE / EVA RISK MAP</span>
-            <span>NEUROQoE · BIOSIGNALS · HUMAN SYSTEMS</span>
-          </figcaption>
-        </figure>
-
         <div className="test-status">
-          <b>01</b>
-          <span>OBSERVE</span>
-          <i />
-          <b>02</b>
-          <span>MODEL</span>
-          <i />
-          <b>03</b>
-          <span>ADAPT</span>
+          <b>01</b><span>OBSERVE</span><i />
+          <b>02</b><span>MODEL</span><i />
+          <b>03</b><span>ADAPT</span>
         </div>
       </section>
 
