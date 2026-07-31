@@ -196,3 +196,52 @@
   .test-statement{padding-left:18px;padding-right:18px}
   .test-footer{padding-left:14px;padding-right:14px}
 }
+
+
+/* Article pages — aligned with the full-width Home */
+.article-shell{
+  max-width:none;
+  width:100%;
+  margin:0;
+  padding:0;
+  overflow:hidden;
+}
+.article-header{
+  width:100%;
+  height:78px;
+  padding:0 clamp(20px,3.5vw,56px);
+  border-top:0;
+  background:var(--paper);
+}
+.article-hero{
+  padding:34px clamp(20px,3.5vw,56px) 50px;
+}
+.article-index,
+.article-intro,
+.article-section,
+.article-feature{
+  margin-left:clamp(20px,7vw,105px);
+  margin-right:clamp(20px,7vw,105px);
+}
+.article-table{
+  margin-left:clamp(20px,3.5vw,56px);
+  margin-right:clamp(20px,3.5vw,56px);
+}
+.article-footer{
+  margin-left:clamp(20px,3.5vw,56px);
+  margin-right:clamp(20px,3.5vw,56px);
+  margin-bottom:28px;
+}
+@media(max-width:900px){
+  .article-index,.article-intro,.article-section,.article-feature{
+    margin-left:clamp(18px,3vw,30px);
+    margin-right:clamp(18px,3vw,30px);
+  }
+}
+@media(max-width:700px){
+  .article-header{height:68px;padding:0 14px}
+  .article-header nav{gap:11px}
+  .article-hero{padding:24px 18px 38px}
+  .article-index,.article-intro,.article-section,.article-feature,
+  .article-table,.article-footer{margin-left:14px;margin-right:14px}
+}
