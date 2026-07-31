@@ -73,6 +73,7 @@ export default function Home() {
       <header className="manual-header">
         <a className="brand" href="#top"><i aria-hidden="true" /><strong>SPACELAB RESEARCH</strong></a>
         <nav aria-label="Primary navigation">
+          <a href="/test-home/">HOME</a>
           <a className="active" href="#journal">BLOG</a>
           <a href="#index">INDEX</a>
           <a href="#about">ABOUT</a>
