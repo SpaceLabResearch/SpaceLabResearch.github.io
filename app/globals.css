@@ -154,3 +154,45 @@
   .test-copy h1{font-size:55px}
   .test-intro{margin-left:0;max-width:92%}
 }
+
+
+/* Test home — full-bleed photographic cover */
+.test-home{
+  max-width:none;
+  margin:0;
+  padding:0;
+  overflow:hidden;
+}
+.test-header{
+  position:absolute;
+  inset:0 0 auto 0;
+  z-index:10;
+  height:78px;
+  padding:0 clamp(20px,3.5vw,56px);
+  border-top:0;
+  border-bottom:1px solid rgba(255,255,255,.28);
+  color:#fff;
+  background:linear-gradient(180deg,rgba(5,9,5,.42),rgba(5,9,5,0));
+}
+.test-header .test-code{color:rgba(255,255,255,.72)}
+.test-header nav a:hover{color:#ff513d}
+.test-hero{
+  min-height:100svh;
+  width:100%;
+  margin:0;
+  padding:112px clamp(28px,4vw,64px) 34px;
+  background-position:center center;
+}
+.test-kicker{color:#fff}
+.test-statement{padding-left:clamp(20px,3.5vw,56px);padding-right:clamp(20px,3.5vw,56px)}
+.test-footer{padding:0 clamp(20px,3.5vw,56px) 22px}
+@media(max-width:900px){
+  .test-hero{min-height:100svh;margin:0;padding-top:104px}
+}
+@media(max-width:600px){
+  .test-header{height:68px;padding:0 14px}
+  .test-header nav{gap:11px}
+  .test-hero{min-height:100svh;margin:0;padding:92px 18px 24px}
+  .test-statement{padding-left:18px;padding-right:18px}
+  .test-footer{padding-left:14px;padding-right:14px}
+}
