@@ -3,7 +3,7 @@ const posts = [
     no: "001",
     date: "31.07.26",
     tag: "NEUROQOE / EEG",
-    title: "P300 as a marker of perceived quality change",
+    title: "P150 as a marker of perceived quality change",
     excerpt:
       "A field note on event-related potentials, degraded audiovisual stimuli and the moment a quality transition becomes perceptible.",
     read: "06 MIN",
