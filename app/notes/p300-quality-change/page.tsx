@@ -1,2 +1,19 @@
 import ArticlePage from "../../components/ArticlePage";
-export default function Page(){return <ArticlePage article={{no:"001",date:"31.07.26",tag:"NEUROQOE / EEG",title:"P300 as a marker of perceived quality change",intro:"This field note examines the moment an audiovisual quality transition becomes perceptible, and how an event-related response can be interpreted without separating the brain signal from its experimental timing and environmental context.",sections:[{label:"premise",title:"A transition is an event, not only a score.",text:"Mean opinion scores describe the reported experience. Event-related EEG adds a time-resolved layer: when a controlled degradation occurs, the protocol can test whether attention and evaluation change around that onset."},{label:"field system",title:"Synchronise stimulus, marker and signal.",text:"The useful unit is the aligned system: media clock, event marker, EEG acquisition and participant response. Each transition must be reconstructable before epochs, spectral features or ERP amplitudes are compared."},{label:"interpretation",title:"Treat P300 as evidence within a system.",text:"A P300-like response may support the detection of salient quality change, but its meaning depends on task, probability, latency, artefact control and participant-level validation. It complements—not replaces—subjective QoE."}]}}/>}
+
+export default function Page() {
+  return (
+    <ArticlePage
+      article={{
+        no: "001",
+        date: "31.07.26",
+        tag: "FIELD NOTE / RESEARCH",
+        title: "Redefine Success",
+        intro:
+          "Confidence doesn’t always arrive with a bold entrance. Sometimes, it builds quietly, step by step, as we show up for ourselves day after day. It grows when we choose to try, even when we’re unsure of the outcome. Every time you take action despite self-doubt, you reinforce the belief that you’re capable. Confidence isn’t about having all the answers — it’s about trusting that you can figure it out along the way. You don’t need to be fearless to reach your goals, you just need to be willing. Willing to try, willing to learn, and willing to believe that you’re capable of more than you know. The road may not always be smooth, but growth rarely is. What matters most is that you keep going, keep learning, and keep believing in the version of yourself you’re becoming.",
+        featureImage: "/images/eva-risk-map.svg",
+        featureAlt: "EVA multi-factor risk map",
+        sections: [],
+      }}
+    />
+  );
+}
