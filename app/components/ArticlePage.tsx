@@ -5,8 +5,13 @@ type Article = { no:string; tag:string; title:string; intro:string; date:string;
 export default function ArticlePage({ article }: { article: Article }) {
   return <main className="article-shell">
     <header className="manual-header article-header">
-      <Link className="brand" href="/"><i aria-hidden="true" /><strong>SPACELAB RESEARCH</strong></Link>
-      <nav><Link href="/#journal">BLOG</Link><Link href="/#index">INDEX</Link><Link href="/#about">ABOUT</Link></nav>
+      <Link className="brand" href="/test-home/"><i aria-hidden="true" /><strong>SPACELAB RESEARCH</strong></Link>
+      <nav aria-label="Article navigation">
+        <Link href="/test-home/">HOME</Link>
+        <Link className="active" href="/#journal">JOURNAL</Link>
+        <Link href="/#index">INDEX</Link>
+        <Link href="/#about">ABOUT</Link>
+      </nav>
       <div className="header-code"><span>FIELD NOTE</span><b>{article.no}</b></div>
     </header>
     <section className="article-hero">
