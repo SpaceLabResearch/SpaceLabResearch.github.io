@@ -8,7 +8,7 @@ const posts = [
       "A field note on event-related potentials, degraded audiovisual stimuli and the moment a quality transition becomes perceptible.",
     read: "06 MIN",
     mode: "signal",
-    slug: "p300-quality-change",
+    slug: "p150-quality-change",
   },
   {
     no: "002",
