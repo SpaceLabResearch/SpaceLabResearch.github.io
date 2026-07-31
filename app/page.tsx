@@ -71,7 +71,7 @@ export default function Home() {
   return (
     <main>
       <header className="manual-header">
-        <a className="brand" href="#top"><i aria-hidden="true" /><strong>SPACELAB RESEARCH</strong></a>
+        <a className="brand" href="#top"><i aria-hidden="true" /><span className="brand-name"><span>SPACE</span><strong>LAB</strong></span><span className="rec-mark">REC</span></a>
         <nav aria-label="Primary navigation">
           <a href="/test-home/">HOME</a>
           <a className="active" href="#journal">BLOG</a>

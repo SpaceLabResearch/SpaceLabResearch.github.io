@@ -279,3 +279,19 @@
     padding-bottom:82px;
   }
 }
+
+/* Header refinement — larger navigation and compact SPACE/LAB REC wordmark */
+.brand,.test-brand{gap:10px;align-items:center}
+.brand-name{display:flex;letter-spacing:-.045em;font-size:15px;color:inherit}
+.brand-name>span{font-weight:300;color:inherit}
+.brand-name strong{font-size:inherit;font-weight:750;color:inherit}
+.rec-mark{border:1.5px solid currentColor;border-radius:4px;padding:2px 5px 1px;font:600 9px var(--font-geist-mono);letter-spacing:.08em;color:inherit;line-height:1}
+.manual-header nav,.test-header nav{font-size:11px}
+.manual-header nav a,.test-header nav a{font-weight:400}
+.manual-header nav a.active,.test-header nav a.active{font-weight:750}
+@media(max-width:600px){
+  .brand,.test-brand{gap:6px}
+  .brand-name{font-size:11px}
+  .rec-mark{font-size:7px;padding:2px 4px}
+  .manual-header nav,.test-header nav{font-size:8px}
+}

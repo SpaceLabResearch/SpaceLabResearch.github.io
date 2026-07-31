@@ -4,10 +4,11 @@ export default function TestHome() {
       <header className="test-header">
         <a className="test-brand" href="/test-home/">
           <i aria-hidden="true" />
-          <strong>SPACELAB RESEARCH</strong>
+          <span className="brand-name"><span>SPACE</span><strong>LAB</strong></span>
+          <span className="rec-mark">REC</span>
         </a>
         <nav aria-label="Test home navigation">
-          <a href="/test-home/">HOME</a>
+          <a className="active" href="/test-home/">HOME</a>
           <a href="#research">RESEARCH</a>
           <a href="/#journal">JOURNAL</a>
           <a href="/#about">ABOUT</a>
@@ -68,4 +69,3 @@ export default function TestHome() {
     </main>
   );
 }
-

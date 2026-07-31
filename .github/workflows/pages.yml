@@ -28,6 +28,28 @@ jobs:
         run: npm install
       - name: Build the static site
         run: npm run build:github
+      - name: Verify complete Pages export
+        shell: bash
+        run: |
+          set -euo pipefail
+          required=(
+            out/index.html
+            out/test-home/index.html
+            out/about/index.html
+            out/research/index.html
+            out/systems/index.html
+            out/notebooks/index.html
+            out/notes/p300-quality-change/index.html
+            out/notes/event-synchronisation/index.html
+            out/notes/wearable-habitat-interface/index.html
+            out/videos/forest-gentle-wind.mp4
+            out/images/forest-adaptive-environment.webp
+          )
+          for path in "${required[@]}"; do
+            test -s "$path" || { echo "Missing or empty export: $path"; exit 1; }
+          done
+          grep -q 'forest-gentle-wind.mp4' out/test-home/index.html
+          grep -q 'id="journal"' out/index.html
       - name: Prepare GitHub Pages
         uses: actions/configure-pages@v5
       - name: Upload the site
