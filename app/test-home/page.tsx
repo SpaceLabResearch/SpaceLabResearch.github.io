@@ -36,7 +36,7 @@ export default function TestHome() {
 
         <div className="test-copy">
           <p className="test-kicker">RESEARCH FIELD / 01</p>
-          <h1>Human signals<br />for adaptive<br />environments.</h1>
+          <h1>Biosignals<br />for adaptive<br />environments.</h1>
           <p className="test-intro">
             SpaceLab Research explores how architecture, systems engineering
             and neurotechnology can reveal — and respond to — human experience
