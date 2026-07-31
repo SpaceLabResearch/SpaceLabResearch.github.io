@@ -2,13 +2,13 @@ const posts = [
   {
     no: "001",
     date: "31.07.26",
-    tag: "NEUROQOE / EEG",
-    title: "P150 as a marker of perceived quality change",
+    tag: "FIELD NOTE / RESEARCH",
+    title: "Redefine Success",
     excerpt:
-      "A field note on event-related potentials, degraded audiovisual stimuli and the moment a quality transition becomes perceptible.",
-    read: "06 MIN",
+      "Confidence can build quietly, step by step, through action, learning and the willingness to keep moving forward.",
+    read: "04 MIN",
     mode: "signal",
-    slug: "p150-quality-change",
+    slug: "p300-quality-change",
   },
   {
     no: "002",
