@@ -2,11 +2,12 @@ export default function TestHome() {
   return (
     <main className="test-home">
       <header className="test-header">
-        <a className="test-brand" href="/">
+        <a className="test-brand" href="/test-home/">
           <i aria-hidden="true" />
           <strong>SPACELAB RESEARCH</strong>
         </a>
         <nav aria-label="Test home navigation">
+          <a href="/test-home/">HOME</a>
           <a href="#research">RESEARCH</a>
           <a href="/#journal">JOURNAL</a>
           <a href="/#about">ABOUT</a>
