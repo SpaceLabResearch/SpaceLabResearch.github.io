@@ -3,7 +3,7 @@ const posts = [
     no: "001",
     date: "31.07.26",
     tag: "FIELD NOTE / RESEARCH",
-    title: "Redefine Success",
+    title: "Redefine NeuroQoE",
     excerpt:
       "Confidence can build quietly, step by step, through action, learning and the willingness to keep moving forward.",
     read: "04 MIN",
