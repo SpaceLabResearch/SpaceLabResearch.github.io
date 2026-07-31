@@ -16,6 +16,18 @@ export default function TestHome() {
       </header>
 
       <section className="test-hero" id="research">
+        <video
+          className="test-hero-video"
+          autoPlay
+          muted
+          loop
+          playsInline
+          preload="metadata"
+          poster="/images/forest-adaptive-environment.webp"
+          aria-hidden="true"
+        >
+          <source src="/videos/forest-gentle-wind.mp4" type="video/mp4" />
+        </video>
         <div className="test-meta">
           <span>ARCHITECTURE × SYSTEMS ENGINEERING</span>
           <span>NEUROTECHNOLOGY / ADAPTIVE ENVIRONMENTS</span>
